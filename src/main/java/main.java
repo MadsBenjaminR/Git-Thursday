@@ -1,6 +1,16 @@
 public class main {
 
     public static void main(String[] args) {
-        System.out.println("hej   ");
+
+        for (int i =1;i<=200;i++){
+            if (i% 3==0 && i %5==0){
+                System.out.println("BuzzFish");
+            } else if (i%3==0) {
+                System.out.println("Buzz ");
+            } else if (i%5==0) {
+                System.out.println("Fish");
+
+            }
+        }
     }
 }
